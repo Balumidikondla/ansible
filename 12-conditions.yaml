@@ -1,0 +1,10 @@
+- name: conditions
+  hosts: localhost
+  tasks: 
+  - name: check roboshop user exits or not
+    ansible.builtin.command: id roboshop
+    rigister: user
+
+  - name: print variable value
+    ansible.builtin.debug:
+      msg: "user output is: {{user}}"
