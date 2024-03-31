@@ -1,7 +1,7 @@
 - name: checking data types
   hosts: localhost
   vars:
-    NAME: BALA
+    NAME: Balu
     skills: 
     - DevOps
     - Shell
@@ -23,7 +23,7 @@
 
   - name: print map
     ansible.builtin.debug:
-      msg: "Experience": {{Experience}}"
+      msg: "Experience: {{Experience}}"
 
   - name: print boolean
     ansible.builtin.debug:
