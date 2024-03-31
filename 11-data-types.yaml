@@ -11,7 +11,7 @@
       DevOps: 7
       AWS: 6
       Docker: 4
-    Trainer:
+    Trainer: true
   tasks:
   - name: print key value pair
     ansible.builtin.debug:
