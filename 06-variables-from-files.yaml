@@ -4,5 +4,5 @@
   - variables.yaml
   tasks:
   - name: check variables
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: "i am learning cource"
