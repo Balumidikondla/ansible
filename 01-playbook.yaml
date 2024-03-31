@@ -1,6 +1,6 @@
 - name: PING PLAYBOOK
   hosts: web
-  task:
+  tasks:
   - name: ping the server
     ansible.builtin.debug.:
 
